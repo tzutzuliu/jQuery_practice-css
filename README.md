@@ -31,17 +31,17 @@
   * background
   
 * text
- * text-align
- * left/right
- * line-height
+  * text-align
+  * left/right
+  * line-height
 
 * font
- * font-size
- * font-weight
- * color
- * font-family
+  * font-size
+  * font-weight
+  * color
+  * font-family
 
 * others
- * overflow
- * list-style-type
- * text-decoration
+  * overflow
+  * list-style-type
+  * text-decoration
