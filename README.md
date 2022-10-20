@@ -19,8 +19,29 @@
   * float:right;float:left
   * clear:right;clear:left
 
-
 * box-model
+  * margin
+  * border
+  * padding
+  * width/height
+
 * background
+  * background-color
+  * background-img
+  * background
+  
 * text
+ * text-align
+ * left/right
+ * line-height
+
 * font
+ * font-size
+ * font-weight
+ * color
+ * font-family
+
+* others
+ * overflow
+ * list-style-type
+ * text-decoration
