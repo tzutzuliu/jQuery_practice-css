@@ -19,29 +19,58 @@
   * float:right;float:left
   * clear:right;clear:left
 
-* box-model
+* box-model (Margin->Border->Padding->Content)
   * margin
+    * margin collapse
+
   * border
-  * padding
+    * border width
+    * border color
+    * border sides 
+    * border shorthand 
+    * Rounded Borders
+
+  * padding 
+    * padding-top
+    * padding-right 
+    * padding-bottom
+    * padding-left
+
   * width/height
+
+  * Outline 
+    * Outline Width
+    * Outline Color 
+    * Outline Shorthand 
+    * Outline Offset
 
 * background
   * background-color
-  * background-img
+  * background-img ex:( background-image: url("");)
+  * background-repeat
+  * background-attachment
+  * background-position
   * background
   
 * text
   * text-align
   * left/right
   * line-height
+  * Text Alignment
+  * Text Decoration 
+  * Text Spacing 
+  * Text Shadow
 
-* font
+* font (Font Prooerty)
   * font-size
   * font-weight
   * color
   * font-family
+  * font-style
+  * font-variant( normal / small-caps )
 
 * others
   * overflow
   * list-style-type
   * text-decoration
+
