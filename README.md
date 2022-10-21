@@ -61,7 +61,7 @@
   * Text Spacing 
   * Text Shadow
 
-* font (Font Prooerty)
+* font (Font Property)
   * font-size
   * font-weight
   * color
