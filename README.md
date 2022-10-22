@@ -74,3 +74,9 @@
   * list-style-type
   * text-decoration
 
+* icon 
+ * <i class="fas fa-cloud" style="font-size:24px;"></i>
+ * <i class="fas fa-cloud" style="font-size:36px;"></i>
+ * <i class="fas fa-cloud" style="font-size:48px;color:red;"></i>
+ * <i class="fas fa-cloud" style="font-size:60px;color:lightblue;"></i>
+
