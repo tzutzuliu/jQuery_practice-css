@@ -79,4 +79,16 @@
    * 記得有i標籤包起來
    * 後方可加入styley自定義;
 
+* link 
+  * a:link - a normal, unvisited link
+  * a:visited - a link the user has visited
+  * a:hover - a link when the user mouses over it
+  * a:active - a link the moment it is clicked
 
+* table > tr > td
+  * table Borders 
+  * table size
+  * table Alignment
+  * table Style 
+  * table Responsive 
+   
