@@ -92,3 +92,11 @@
   * table Style 
   * table Responsive 
    
+* Display 
+  * div
+  * h1 - h6 
+  * form 
+  * header 
+  * footer 
+  * section 
+  * aside
