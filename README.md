@@ -100,3 +100,25 @@
   * footer 
   * section 
   * aside
+
+* Max-width 
+* Overflow 
+ * visible 
+ * hidden 
+ * scroll 
+ * auto 
+
+* CSS Layout - float and clear 
+* The float Propery
+* float property can have one of the following values: 
+ * left 
+ * right 
+ * none
+ * inherit(較少用)
+
+* The clear Property 
+ * none
+ * left
+ * right 
+ * both (ex->clear:both;) 
+ * inherit 
