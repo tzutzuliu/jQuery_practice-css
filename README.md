@@ -122,3 +122,8 @@
   * right 
   * both (ex->clear:both;) 
   * inherit 
+
+* inline
+  * inline-block
+  * block
+
