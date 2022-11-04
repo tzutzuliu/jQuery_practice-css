@@ -100,6 +100,8 @@
   * footer 
   * section 
   * aside
+  * P 
+  * ul 
 
 * Max-width 
 * Overflow 
@@ -123,7 +125,13 @@
   * both (ex->clear:both;) 
   * inherit 
 
-* inline
-  * inline-block
-  * block
+* inline(span、a、input、img) (display: inline)
+  * inline-block(display: inline-block)
+  * block(display: block)
+
+
+
+  
+
+
 
