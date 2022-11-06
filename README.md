@@ -135,6 +135,8 @@
 
 *  CSS Navigation Bar
 * A navigation bar is basically a list of links, so using the ul and li elements makes perfect sense:
+* 註解掉 通常會用ul & li去包 https://www.w3schools.com/css/css_navbar.asp 
+
   <!--ul>
     <li><a href="default.php">XXX</a></li>
     <li><a href="news.php">XXX</a></li>
