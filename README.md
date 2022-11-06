@@ -133,7 +133,15 @@
 * CSS Selector Reference
 * https://www.w3schools.com/cssref/css_selectors.php 
 
-  
+*  CSS Navigation Bar
+* A navigation bar is basically a list of links, so using the <ul> and <li> elements makes perfect sense:
+  <ul>
+    <li><a href="default.php">XXX</a></li>
+    <li><a href="news.php">XXX</a></li>
+    <li><a href="contact.php">XXX</a></li>
+    <li><a href="about.php">XXX</a></li>
+  </ul>
+
 
 
 
