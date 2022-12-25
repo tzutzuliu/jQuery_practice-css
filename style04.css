@@ -1,0 +1,7 @@
+. smoke soan{
+    color: transparent;
+    display: inline-block;
+    text-shadow: 0 0 0 whitesmoke;
+    animation: smoke 8s both infinite;
+    font-size:  5rem;
+}
