@@ -19,8 +19,11 @@
             function resize() {
                 vw = document.documentElement.clientWidth;
                 vh = document.documentElement.clientHeight;
-                
+                canvas.width = vw;
+                canvas.height = vh;
             }
+            resize();
+            window.addEventListener('resize',resize);
     </script>
 
     
