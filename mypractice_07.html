@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS_CANVAS</title>
+    <link rel="stylesheet" href="./style05.css">
 </head>
 
 <body>
@@ -35,8 +36,21 @@
                     this.dy = dy;
 
                     this.color = 'white';
+                    draw() {
+                        c.fillstyle = this.color;
+                        c.beginPath();
+                        c.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+                        c.fill();
+                        c.closePath();
+
                 }
+            let ball = new Ball(50, 50, 20, 2, 2)
+            ball.draw()
             }
+                          
+        }
+
+
     </script>
 
     
