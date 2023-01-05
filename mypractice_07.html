@@ -26,6 +26,17 @@
             window.addEventListener('resize',resize);
 
             let c = canvas.getContext('2d');
+            class Ball {
+                constructor(x, y, radius, dx, dy) { 
+                    this.x = x;
+                    this.y = y;
+                    this.radius = radius;
+                    this.dx = dx;
+                    this.dy = dy;
+
+                    this.color = 'white';
+                }
+            }
     </script>
 
     
