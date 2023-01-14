@@ -78,6 +78,18 @@
             }
         }
 
+        function animate () {
+            requestAnimationFrame(animate);
+            c.clearRect(0, 0, vw, vh);
+
+            for(let i = 0; i < ballArray.length; i++) {
+                ballArray(i).draw();
+                ballArray(i).update();
+            }
+        }
+
+        init();
+        animate();
 
     </script>
 
