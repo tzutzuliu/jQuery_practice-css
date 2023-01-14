@@ -50,8 +50,24 @@
             ball.draw()
             //測試階段，能不能畫出一顆雪花，分別在50,50的位置畫出一個半徑20的雪花
             }
-
                           
+        }
+
+        let ballArray = [];
+        
+        function init() {
+            ballArray = [];
+            let number = 700;
+            for(let i = 0; i < number; i++) { 
+                let radius = Math.random() * 4;
+                let x = Math.random() * vw;
+                let y = Math.random() * vh;
+                let dx = Math.random() - 0.5;
+                let dy = 0.5 + Math.random() * 2;
+                let ball = new Ball(x, y, radius, dx, dy);
+                ballArray.push(ball);
+
+            }
         }
 
 
