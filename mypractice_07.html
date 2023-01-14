@@ -78,6 +78,11 @@
             }
         }
 
+        //前一秒先清空整個畫布
+        //下一秒再畫出新的位置
+        //requestAnimationFrame() 重複做這件事
+        //這個函數簡單說就是每1/60秒執行一次傳入的函數
+
         function animate () {
             requestAnimationFrame(animate);
             c.clearRect(0, 0, vw, vh);
