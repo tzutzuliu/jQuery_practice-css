@@ -56,8 +56,13 @@
         let ballArray = [];
         
         function init() {
+            //init初始化函數
+        
             ballArray = [];
-            let number = 700;
+            //先用陣列
+            let number = 800;
+            先用陣列把球存起來,數量先設置800個
+
             for(let i = 0; i < number; i++) { 
                 let radius = Math.random() * 4;
                 let x = Math.random() * vw;
@@ -66,7 +71,7 @@
                 let dy = 0.5 + Math.random() * 2;
                 let ball = new Ball(x, y, radius, dx, dy);
                 ballArray.push(ball);
-
+                
             }
         }
 
