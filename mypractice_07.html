@@ -29,6 +29,8 @@
             let c = canvas.getContext('2d');
             class Ball {
                 constructor(x, y, radius, dx, dy) { 
+                    //讓x軸的位置 加上 dx移動的速度
+                    //比如說dx = 1 並且 1秒移動一次
                     this.x = x;
                     this.y = y;
                     this.radius = radius;
@@ -46,7 +48,9 @@
                 }
             let ball = new Ball(50, 50, 20, 2, 2)
             ball.draw()
+            //測試階段，能不能畫出一顆雪花，分別在50,50的位置畫出一個半徑20的雪花
             }
+
                           
         }
 
