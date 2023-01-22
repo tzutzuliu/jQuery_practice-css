@@ -96,6 +96,22 @@
         init();
         animate();
 
+        update() {
+            if(this.x > vw) {
+                this.x = 0;
+            } else if (this.x < 0) {
+              this.x = vw;
+            }
+
+            if (this.y > vh) {
+                this.y = 0;
+            }
+            
+            this.x += this.dx
+            this.y += this.dy;
+    }
+    
+            
     </script>
 
     
