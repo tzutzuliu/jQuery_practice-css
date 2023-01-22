@@ -15,3 +15,8 @@
     top: -75vh;
     animation: rotate 10s linear infinite;
 }
+@keyframes rotate { 
+    to {
+        rotate: 360deg;
+    }
+}
