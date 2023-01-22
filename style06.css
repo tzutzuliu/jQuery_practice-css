@@ -1,0 +1,17 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg {
+    width: 250vh;
+    height: 250vw;
+    background: 
+        conic-gradient(from 0deg, #52E5E7, #130CB7, #52E5E7);
+    position: absolute;
+    left: -75vw;
+    top: -75vh;
+    animation: rotate 10s linear infinite;
+}
