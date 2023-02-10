@@ -9,4 +9,9 @@
 .chart_pie {
     grid-row: 1/6;
     grid-column: 2/3;
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: palegoldenrod;
 }
