@@ -4,7 +4,7 @@
     grid-template-columns: 1fr auto;
     column-gap: 32px;
     row-gap: 8px;
-    color: white;
+    color: peru;
 }
 .chart_pie {
     grid-row: 1/6;
