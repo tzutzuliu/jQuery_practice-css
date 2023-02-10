@@ -13,5 +13,11 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: palegoldenrod;
+    background: radial-gradient(#ffeebb 45%, transparent 45%),
+    conic-gradient(
+        #e25434 0%, #e25434 30%,
+        #01a7b7 30%, #01a7b7 50%,
+        #ffaa22 50%, #ffaa22 75%,
+        #ea5591 75%, #ea5591 90%,
+        #88aacc 90%);
 }
