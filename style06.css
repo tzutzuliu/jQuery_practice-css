@@ -8,5 +8,5 @@
 }
 .chart_pie {
     grid-row: 1/6;
-    grid-template-rows: repeat(5, auto);
+    grid-column: 2/3;
 }
