@@ -136,6 +136,9 @@
 *  CSS Navigation Bar
 * A navigation bar is basically a list of links, so using the ul and li elements makes perfect sense:
 * 註解掉 通常會用ul & li去包 https://www.w3schools.com/css/css_navbar.asp 
+* CSS 盡可能還是要從原生的語法開始學起，當然後面有很多分類比如說有預處理器(SASS LESS SCSS)
+* CSS屬於原子化型的是 Boostrap tailwind windi 
+* 額外還有一個CSS是 UNOCSS 
 
   <!--ul>
     <li><a href="default.php">XXX</a></li>
@@ -146,6 +149,7 @@
 
 ### Animate_css
 * https://animate.style/
+
 
 
 
